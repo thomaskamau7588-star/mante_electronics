@@ -140,3 +140,28 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* PHONE */
+
+@media (max-width: 500px) {
+    #products {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        display: block;
+    }
+}
+
+/* PRINT */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    nav,
+    button {
+        display: none;
+    }
+}
