@@ -87,3 +87,15 @@ article {
     text-align: center;
     border-radius: 5px;
 }
+
+/* PRODUCT IMAGE */
+article img {
+    width: 100%;
+    max-width: 250px;
+}
+
+/* PRODUCT TITLE */
+article h3 {
+    color: #102a43;
+}
+
