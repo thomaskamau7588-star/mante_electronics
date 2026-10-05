@@ -132,3 +132,11 @@ article:hover {
     padding: 20px;
     border-radius: 5px;
 }
+
+/* FOOTER */
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
