@@ -1,0 +1,197 @@
+/* BODY */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #102a43;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* NAVIGATION */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #1683f5;
+}
+
+
+/* HOME */
+
+#home {
+    background-color: #dbeafe;
+    text-align: center;
+    padding: 40px;
+}
+
+#home h2 {
+    font-size: 30px;
+}
+
+#home a {
+    background-color: #1683f5;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* FILTER */
+
+aside {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+select {
+    padding: 8px;
+}
+
+
+/* PRODUCTS */
+
+#products {
+    padding: 20px;
+
+    /* PRODUCT GRID */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#products h2,
+#products > p {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+
+/* PRODUCT CARD */
+
+article {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+/* PRODUCT IMAGE */
+
+article img {
+    width: 100%;
+    max-width: 250px;
+}
+
+
+/* PRODUCT TITLE */
+
+article h3 {
+    color: #102a43;
+}
+
+
+/* BUTTONS */
+
+button {
+    background-color: #1683f5;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+/* BUTTON HOVER */
+
+button:hover {
+    background-color: #102a43;
+}
+
+
+/* PRODUCT HOVER */
+
+article:hover {
+    transform: scale(1.02);
+}
+
+
+/* SHOPPING CART */
+
+#cart {
+    border: 2px solid #1683f5;
+}
+
+
+/* ABOUT AND CONTACT */
+
+#about,
+#contact {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* PHONE */
+
+@media (max-width: 500px) {
+
+    #products {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        display: block;
+    }
+
+}
+
+
+/* PRINT */
+
+@media print {
+
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    nav,
+    button {
+        display: none;
+    }
+
+}
+
+
