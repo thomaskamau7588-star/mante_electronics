@@ -119,3 +119,16 @@ article:hover {
     transform: scale(1.02);
 }
 
+/* SHOPPING CART */
+#cart {
+    border: 2px solid #1683f5;
+}
+
+/* ABOUT AND CONTACT */
+#about,
+#contact {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
