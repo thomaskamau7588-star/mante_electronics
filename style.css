@@ -49,3 +49,18 @@ nav a:hover {
     border-radius: 5px;
 
 }
+
+/* FILTER */ 
+aside {
+     background-color: white;
+      margin: 20px;
+       padding: 20px;
+        border-radius: 5px; 
+    
+    } 
+    
+    select {
+         padding: 8px;
+        
+        }
+        
