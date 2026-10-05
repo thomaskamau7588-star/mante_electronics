@@ -28,3 +28,24 @@ nav a:hover {
     color: #1683f5;
 
 }
+
+/* HOME */
+#home {
+    background-color: #dbeafe;
+    text-align: center;
+    padding: 40px;
+
+}
+
+#home h2 {
+    font-size: 30px;
+}
+
+#home a {
+    background-color: #1683f5;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
