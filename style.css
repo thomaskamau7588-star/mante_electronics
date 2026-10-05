@@ -99,3 +99,23 @@ article h3 {
     color: #102a43;
 }
 
+/* BUTTONS */
+button {
+    background-color: #1683f5;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* BUTTON HOVER */
+button:hover {
+    background-color: #102a43;
+}
+
+/* PRODUCT HOVER */
+article:hover {
+    transform: scale(1.02);
+}
+
